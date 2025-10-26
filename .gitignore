@@ -1,6 +1,32 @@
-node_modules/
-.parcel-cache/
-.cache/
+# Logs
+logs
 *.log
-.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Build output
 dist/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# System files
+.DS_Store
